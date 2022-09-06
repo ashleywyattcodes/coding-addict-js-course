@@ -138,7 +138,7 @@ const random2 = (4+5+10)*10;
 console.log(amount);
 console.log(random);
 console.log(random2);
-*/
+
 
 // SECTION : 6 
 //   Implicity Type Conversion 
@@ -152,3 +152,70 @@ const number = 4;
 const number2 = 10; 
 const result = number + number2; 
 console.log(result);
+
+const value = name - lastName;
+console.log(value);
+
+let number3 = 10;
+let number4= 23;
+//  100 lines of code 
+number4 = "pants";
+const result2 = number3 + number4;
+console.log(result2);
+
+// Section : 7
+//  All Data types in JS 
+primitive - String, number, boolean, null, undefined, symbol 
+*** KING:  Object- arrays, functions, objects ***
+3. typeof - operator (typeof variable) (typeof value)
+
+PRIMITIVE DATA TYPES: 
+
+1.string
+
+const text = 'some text'; 
+
+2. number  
+
+const number = 45; 
+
+3. boolean
+
+let value1 = true;
+let value2 = false;
+
+4. null 
+
+const result = null; 
+
+5. undefined 
+
+let name;
+
+6. symbol (ES6)
+
+*will cover later!* 
+
+console.log(typeof text);
+console.log(typeof true);
+console.log(typeof number);
+console.log(typeof value1);
+console.log(typeof value2);
+console.log(typeof null);
+console.log(typeof name);
+*/
+
+//  Arrays, Functions, and Objects
+// Arrays - [], 0 index based 
+
+const friend1 = 'anna';
+const friend2 = 'anna';
+const friend3 = 'anna';
+const friend4 = 'anna';
+const friend5 = 'anna';
+const friend6= 'anna';
+
+//  this is less redundant 
+
+const friends = ['Anna', 'Ashley', 'Darrell', 'Eugene'];
+console.log(friends);
